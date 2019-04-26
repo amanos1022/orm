@@ -233,7 +233,7 @@ element. Here are some examples:
     $user->getComments()->remove($ithComment);
     $comment->setAuthor(null);
 
-You need to call ``$em->flush()`` to make persist these changes in
+You need to call ``$em->flush()`` to persist these changes in
 the database permanently.
 
 Notice how both sides of the bidirectional association are always
